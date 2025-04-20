@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--card-background);
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 -2px 4px var(--shadow-color);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem;
+  }
+  
+  .footer-content p {
+    font-size: 0.8rem;
+  }
+} 
